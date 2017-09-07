@@ -1,0 +1,51 @@
+.warp{
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  width: 100%;
+  background-color: #2b2e33;
+  display: flex;
+  justify-content: center;
+}
+.top_on{
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.top_on>a:nth-child(2)>img{
+  padding-top: 15px;
+  padding-bottom: 14px;
+}
+.top_on .denglu{
+  margin-right: 38px;
+  line-height: 90px;
+  font-size: 14px;
+  color: #686c71;
+  width: 244px;
+}
+.top_on>a:nth-child(1){
+  margin-left: 56px;
+  padding-top: 33px;
+  width: 244px;
+
+}
+.top_on>a:nth-child(1)>img{
+  display: block;
+}
+.denglu>a{
+  color: #686c71;
+  text-decoration: none;
+}
+.denglu>a:hover{
+  color: #ffd801
+}
+.denglu img{
+  margin-top: 27px;
+}
+.denglu img:nth-child(1){
+  margin-right: 68px;
+}
+.denglu img:nth-child(2){
+  margin-right: 44px;
+}
