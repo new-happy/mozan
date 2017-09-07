@@ -49,12 +49,14 @@ class Main extends Component {
             <article>
               <div className="dingjin">
                 <span>定金</span>
-                <b>￥ <b>500.00</b></b><br/>
-                <span>全款金额：￥150.00</span>
+                <div>
+                  <b>￥<b>500.00</b></b><br/>
+                  <span>全款金额：￥150.00</span>
+                </div>
               </div>
               <div className="kuanshi">
                 <span>款式</span>
-                <div>
+                <div className='iphone'>
                   <a href="#">iphone 5</a>
                   <a href="#">iphone 6</a>
                   <a href="#">iphone 6+</a>
@@ -62,7 +64,7 @@ class Main extends Component {
               </div>
               <div className="chima">
                 <span>尺码</span>
-                <div>
+                <div className='chicun'>
                   <a href="#">XXS</a>
                   <a href="#">XS</a>
                   <a href="#">S</a>
@@ -74,7 +76,7 @@ class Main extends Component {
               </div>
               <div className="shuliang">
                 <span>数量</span>
-                <div>
+                <div className='jishu'>
                   <a className="jian" href="#">-</a>
                   <span className="shu">1</span>
                   <a className="jia" href="#">+</a>

@@ -111,10 +111,11 @@ article{
 }
 article>div{
 	margin-bottom: 30px;
-	/*display: flex;*/
+	display: flex;
 }
 article>div>span:nth-child(1){
 	width: 64px;
+	height: 26px;
 	line-height: 26px;
 	background-color: #fff;
 	border-radius: 10px;
@@ -129,13 +130,12 @@ article>div>span:nth-child(1){
 	font-size: 24px;
 	color: #fdd900;
 }
-.dingjin span:nth-child(4){
+.dingjin div span{
 	font-size: 18px;
 	color: #fff;
 	line-height: 18px;
-	padding-left: 94px;
 }
-.kuanshi div a,.chima div a,.shuliang div a{
+.kuanshi div a,.chima div a,.jishu a{
 	width: 79px;
 	line-height: 26px;
 	font-size: 14px;
@@ -145,21 +145,40 @@ article>div>span:nth-child(1){
 	text-align: center;
 	color: #fff;
 }
+.iphone{
+	display: flex;
+}
+.iphone a{
+	text-decoration: none;
+}
 .chima{
 	width: 380px;
 	margin-bottom: 20px;
 
 }
-.chima span{
-	margin-bottom: 20px
+.chicun{
+	display: flex;
+	width: 284px;
+	flex-wrap: wrap;
 }
 .chima div a{
 	width: 64px;
 	margin-bottom: 5px;
+	text-decoration: none;
 }
-.shuliang div a{
+.jishu{
+	display: flex;
+	width: 284px;
+}
+.jishu span{
+	flex: 2;
+	text-align: center;
+	color: #fff;
+}
+.jishu a{
 	width: 69px;
 	line-height: 38px;
+	text-decoration: none;
 }
 .shuliang span:nth-child(3){
 	display: flex;
@@ -169,7 +188,6 @@ article>div>span:nth-child(1){
 	color: #fff;
 }
 .anniu{
-	display: flex;
 	padding: 20px 0;
 	border-top: 2px solid #4f4f4f;
 	border-bottom: 2px solid #4f4f4f;
